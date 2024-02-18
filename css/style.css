@@ -1,0 +1,574 @@
+*{
+	padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.formFooter-text {
+    color: #F3F3FE;
+    font-size: 0.75em;
+    margin-right: 0.938em;
+    display: none !important;
+}
+
+.formFooter {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background-color: #0A1551;
+    position: fixed;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 14px;
+    z-index: 10001;
+    display: none !important;
+    height: 56px;
+}
+
+body{
+	 font-family: "Lato", sans-serif;
+	 font-size: 16px;
+	 line-height: 1.7em;
+	 background: #E3E6F3 !important;
+}
+
+h1, h2, h3, h4, h5, h6{
+	 font-family: "Fredoka", sans-serif;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+a{
+	text-decoration: none !important;
+	list-style: none !important;
+}
+
+a:hover{
+	text-decoration: none !important;
+	list-style: none !important;
+}
+
+/*header part start*/
+
+.header{
+	box-shadow: 0px 1px 0px  red;
+}
+
+.navbar-brand{
+	margin-left: 20px;
+}
+.navbar-nav a{
+	color: black;
+	font-size: 17px;
+	font-weight: 500;
+	margin: 0px 0px 0px 20px;
+
+}
+
+.navbar-nav a:hover{
+	color: #4D8680;
+	background: transparent;
+	border: 2px solid #4D8680;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-width: 2px;
+	height: 40px;
+	transition: 0.5s;
+}
+.header-icon span{
+	margin: 0px 0px 0px 30px;
+	color: black;
+	font-size: 19px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.header-icon span:hover{
+	background: transparent;
+	color: #4D8680;
+}
+
+/*header part ends*/
+
+/*banner start*/
+.banner{
+	background: url("../images/hero4.png") center top no-repeat;
+	background-size: cover;
+    padding: 350px 0px;
+}
+
+.banner-details{
+	margin-left: 20px;
+}
+
+.banner-details h5{
+	font-size: 20px;
+	color: black;
+	font-weight: 500;
+}
+.banner-details h1{
+  font-size: 55px;
+  font-weight: bold;
+  color: black;
+}
+.banner-details h2{
+  font-size: 60px;
+  font-weight: bold;
+  color: #1C8871;
+}
+.banner-details p{
+   font-weight: 400;
+   color: black;
+}
+
+.banner-btn{
+	margin-top: 30px;
+}
+.banner-btn .btn12{
+	margin-left: 20px;
+	color: white;
+	background: #E7CEB4;
+	padding: 10px 30px 10px 30px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.banner-btn .btn12:hover{
+	background: #E7CEB4;
+	color: black;
+	transition: 0.5s;
+}
+/*banner end*/
+
+/*features section start*/
+
+.features{
+	padding: 80px 0px;
+	background: white;
+	
+}
+
+.card{
+	padding: 20px 20px 20px 20px;
+	background-color: transparent !important;
+	margin-left: 10px;
+	margin-right: 10px;
+	cursor: pointer;
+   }
+
+.card:hover{
+	background: transparent;
+	box-shadow: 3px 6px 8px 8px #eee;
+}
+
+.card-title h3{
+	font-size: 17px;
+	font-weight: bold;
+	color: black;
+	margin-top: 10px;
+	text-align: center;
+	background: #DABBC5;
+	padding: 5px 10px 5px 10px;
+
+}
+/*features section ends*/
+
+
+/*products-heding start*/
+
+.products-heding h1{
+  font-size: 60px !important;
+}
+
+.products .png{
+	margin-left: 40px;
+}
+
+
+.card-body p{
+  font-size: 13px;
+  color: black;
+  font-weight: 400;
+}
+
+.card-body h3{
+	font-size: 17px;
+	  color: #61877A;
+	font-weight: bold;
+}
+
+.star{
+	color: orange;
+	padding: 10px 0px;
+	font-size: 10px;
+}
+
+.card-body h5 span{
+   text-align: end;
+   margin-left: 150px;
+    color: #61877A;
+}
+
+.card-body h5{
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+	color: #61877A;
+}
+
+
+/*products-heding end*/
+
+/*repair section start*/
+ .reapair{
+ 	background: url("../images/gfhfgxg.jpg") no-repeat;
+ 	background-size: cover;
+ }
+
+ .repair-title{
+ 	margin-top: 30px;
+ }
+
+ .repair-title span{
+ 	color: white;
+ 	font-size: 19px;
+ 	font-weight: bold;
+ }
+
+ .repair-title h1{
+ 	font-size: 3rem;
+ 	color: white;
+ 	font-weight: 600;
+ 	padding-top: 10px;
+ }
+
+ .repair-title h1 span{
+ 	font-size: 3rem;
+ }
+
+ .repair-btn .btn-danger{
+ 	margin-top: 10px;
+ 	font-size: 16px;
+ 	color: black;
+ 	font-weight: bold;
+ 	background: white;
+ 	border: 1px solid white;
+ 	border-radius: 2px;
+ 	padding: 10px 30px 10px 30px;
+ }
+/*repair section end*/
+
+
+/*new-arrivals section start*/
+
+.new-arrivals{
+	background: white;
+
+}
+
+.arrivals-title{
+	text-align: center;
+}
+.arrivals-title h1{
+	color: black;
+	font-size: 3rem;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.arrivals-title p{
+	color: black;
+	font-weight: 400;
+
+}
+
+
+#new-cards:hover{
+   box-shadow: 5px 12px 13px 14px #eee;
+   margin-top: -10px;
+   transition: 0.4s;
+}
+/*new-arrivals section end*/
+
+
+/*section upcoming start*/
+#one-upcoming{
+	background: url("../images/b17.jpg") no-repeat;
+	background-size: cover;
+	padding: 70px 30px 70px 30px;
+	margin-left: 100px;
+}
+
+#two-upcoming{
+	background: url("../images/b10.jpg") no-repeat;
+	background-size: cover;
+	margin: 0px 0px 0px 70px;
+	padding: 70px 30px 70px 30px;
+}
+
+.upcoming-heading p{
+	font-size: 20px;
+	color: white;
+	font-weight: 400;
+}
+.upcoming-heading h1{
+   font-size: 3rem;
+   color: white;
+   font-weight: bold;
+}
+.upcoming-heading span{
+   font-size: 16px;
+   color: white;
+   font-weight: bold;
+}
+
+.upcoming-btn .btn-danger{
+	color: white;
+	background: transparent;
+	border: 1px solid white;
+	border-radius: 1px;
+	font-weight: bold;
+	font-size: 15px;
+	margin-top: 20px;
+	padding: 10px 40px 10px 40px;
+}
+
+.upcoming-btn .btn-danger:hover{
+	color: white;
+	background: transparent;
+	transition: 1s;
+	border: 1px solid red;
+	border-radius: 1px;
+	margin-bottom: -1px;
+}
+/*section upcoming end*/
+
+
+
+
+
+/*some-text-banner satrt*/
+ .some-text-banner{
+ 	background: white;
+ }
+
+ #banner-one{
+ 	padding: 90px 40px 90px 40px;
+ 	background: url("../images/b71.jpg") no-repeat;
+ 	background-size: cover;
+ 	cursor: pointer;
+ }
+
+  #banner-two{
+  	background: url("../images/dcfj.jpg") no-repeat;
+  	background-size: cover;
+ 	padding: 90px 40px 90px 40px;
+ 	cursor: pointer;
+ }
+
+  #banner-three{
+  	background: url("../images/b18.jpg") no-repeat;
+  	background-size: cover;
+ 	padding: 90px 40px 90px 40px;
+ 	cursor: pointer;
+ }
+
+ .banner-headings h1{
+ 	font-size: 25px;
+ 	color: white;
+ 	font-weight: bold;
+ 	text-transform: uppercase;
+ }
+ .banner-headings p{
+ 	color: red;
+ 	font-size: 19px;
+ 	font-weight: 500;
+ }
+/*some-text-banner end*/
+
+
+/*newslatter part sttart*/
+ .newslatter{
+ 	background: url("../images/banner.png") no-repeat;
+ 	background-size: cover;
+ }
+
+
+.newslatter-title{
+	margin-left: 0px;
+}
+
+.newslatter-title h1{
+	font-size: 3rem;
+	color: white;
+	font-weight: bold;
+}
+.newslatter-title p{
+ font-size: 20px;
+ font-weight: 500;
+ color: white;
+}
+.newslatter .input-group{
+	padding: 40px 0px;
+	max-width: 500px;
+	margin: 0px 0px 0px 200px;
+}
+.newslatter .form-control{
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+
+}
+
+.newslatter .input-group .btn-info{
+	font-size: 19px;
+	font-weight: bold;
+	color: white;
+	background: #138E77;
+	border: 1px solid #138E77;
+	border-radius: 1px;
+
+}
+
+.newslatter .input-group .btn-info:hover{
+	background: transparent;
+	color: white;
+	border: 1px solid white;
+	border-radius: 1px;
+}
+
+/*newslatter part end */
+
+
+/*fotter start*/
+ .footer{
+ 	background: #eee !important;
+
+ }
+
+ .fotter-logo-heading h1{
+ 	font-size: 22px;
+ 	color: black;
+ 	font-weight: bold;
+ 	margin-top: 20px;
+ }
+
+ .footer-logo-title h6{
+ 	font-size: 14px;
+ 	color: gray;
+ 	padding-top: 10px;
+ }
+
+ .footer-logo-title h6 span{
+ 	color: black;
+ 	font-size: 17px;
+ 	font-weight: 600;
+ }
+
+  .footer-logo-title p span{
+ 	color: black;
+ 	font-size: 17px;
+ 	font-weight: 700;
+ }
+
+  .footer-logo-title h5 span{
+ 	color: black;
+ 	font-size: 17px;
+ 	font-weight: 600;
+ }
+
+ .footer-logo-title h5{
+     font-size: 14px;
+ 	color: gray;
+ }
+ .footer-logo-title p{
+    font-size: 15px;
+ 	color: gray;
+ 	font-weight: 500;
+ }
+
+ .footer-logo-social h1{
+ 	font-size: 22px;
+ 	font-weight: bold;
+ 	color: black;
+ 	margin-top: 10px;
+ }
+
+ .social-icon .bi{
+ 	font-size: 18px;
+ 	letter-spacing: 10px;
+  cursor: pointer;
+ }
+
+ .footer-headers-title h1{
+ 	font-size: 22px;
+ 	color: black;
+ 	font-weight: bold;
+ 	margin-top: 10px;
+ 	margin-left: 30px;
+ }
+
+  .footer-headers-title-1 h1{
+ 	font-size: 22px;
+ 	color: black;
+ 	font-weight: bold;
+ 	margin-top: 10px;
+
+ }
+
+  .footer-headers-title-1 p{
+  	color: gray;
+  	font-size: 17px;
+  }
+
+ 
+
+ .footer-headers-detailes ul{
+ 	text-decoration: none;
+ 	list-style: none;
+ }
+
+ .footer-headers-detailes ul li a{
+ 	color: gray;
+ 	font-size: 18px;
+ 	font-weight: 500;
+ 	line-height: 1.7em;
+ }
+
+.payment-system img{
+	cursor: pointer;
+
+}
+.payment-system h1{
+   font-size: 22px;
+   color: gray;
+}
+
+.apps-dawonload img{
+	cursor: pointer;
+	border: 1px solid green !important;
+	border-radius: 10px;
+}
+
+.inner-footer-copyright{
+	text-align: center;
+}
+
+.inner-footer-copyright p span{
+ text-decoration: underline;
+ font-size: 15px;
+ font-weight: bold;
+ color: red;
+ cursor: pointer;
+}
+/*fotter end*/
